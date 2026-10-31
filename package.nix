@@ -26,6 +26,34 @@ appimageTools.wrapType2 {
   extraPkgs = pkgs: with pkgs; [
     libayatana-appindicator
     libgpg-error
+    flite.lib
+    libpulseaudio
+    alsa-lib
+    openal
+    libGL
+    libglvnd
+    udev
+    fontconfig
+    freetype
+    vulkan-loader
+    libxtst
+    libx11
+    libxext
+    libxcursor
+    libxrandr
+    libxxf86vm
+    libxi
+    libxinerama
+    libxcomposite
+    libxdamage
+    libxfixes
+    libxrender
+    libxcb
+    gamemode
+    wayland
+    libdecor
+    libxkbcommon
+    pciutils
   ];
 
   extraInstallCommands = ''
